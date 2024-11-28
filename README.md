@@ -88,23 +88,6 @@ python auto_commit.py
 Этот скрипт предназначен для визуализации зависимостей в Git-репозиториях. Он анализирует историю коммитов указанного файла и создает граф, отображающий изменения, внесенные в файл в разных коммитах.
 
 
-### **Установка**
-
-Перед использованием убедитесь, что у вас установлены следующие зависимости:
-
-   - Python 3.x
-   - Git
-   - Graphviz
-
-**Чтобы запустить скрипт, используйте команду:** 
-```
-python ваш_скрипт.py --graphviz_path <путь_к_Graphviz> --repo_path <путь_к_репозиторию> --output_path <путь_к_выходному_файлу> --file_hash <имя_файла>
-```
-**Пример:**
-```
-python dependency_visualizer.py --graphviz_path "C:\Program Files\Graphviz\bin" --repo_path "C:\Users\User\Desktop\konf2\my_repo" --output_path "output_graph.png" --file_hash "example.txt"
-```
-
 **Содержимое** ```output_graph.png```:
 
 ![image](https://github.com/user-attachments/assets/25def5f4-38d0-4832-a8b9-a2eee2d749a2)
